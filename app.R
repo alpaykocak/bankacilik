@@ -95,7 +95,7 @@ final_map <- left_join(tur_for, id_and_cities, by = "id") %>% mutate(`Yıl` = ye
 library(shiny)
 
 # Define UI for application that draws a histogram
-ui <- fluidPage(
+ui <- fluidPage( 
 
     # Application title
     titlePanel("Bankacılıkla ilgili göstergelerin tematik haritalarla sunumu"),
